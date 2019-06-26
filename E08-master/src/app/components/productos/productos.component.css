@@ -1,0 +1,225 @@
+ body { background: rgb(255, 255, 255) !important }
+
+.container-fluid { max-width: auto; }
+
+
+[class*="row"] {
+	margin-bottom: 1em;
+  justify-content: center;
+}
+
+[class*="col-"] {
+	background: #efefef;
+	border: 1px solid rgb(255, 255, 255);
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	width: 100%;
+}
+ 
+
+.card {
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+  img {
+    width: 100%;
+  }
+}
+
+
+
+.color1,
+.colors>li:nth-child(1),
+.group-two {
+  background-color: #d33f4b;
+  min-height: 100px;
+  width: auto;
+  height: auto ;
+}
+
+
+.pc--name {
+  color:  #070606;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 28px;
+}
+
+.pc--price {
+  color: #949494;
+
+}
+
+
+.group {
+  min-height: 100px;
+  height: auto;
+  width: 500;
+  height: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url(https://bit.ly/2lpu3Uh);
+  background-blend-mode: multiply;
+}
+
+
+.group .group--container {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 0 0 150px 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 130px;
+  padding-bottom: -90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+
+.group .group--title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+
+
+.group .group--title h1,
+.group .group--title h2,
+.group .group--title h3,
+.group .group--title h4 {
+  font-family: "Roboto";
+  font-weight: 800;
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+  font-size: 56px;
+  margin: 0 0 10px 0;
+}
+
+
+.group .group--title h1:before,
+.group .group--title h2:before,
+.group .group--title h3:before,
+.group .group--title h4:before {
+  content: '';
+  display: block;
+  border-top: 4px solid #232323;
+  padding-top: 18px;
+  width: 43%;
+  margin: 0 auto;
+
+}
+
+/* POTENCIA Y RAPIDEZ */
+.group .group--subtitle {
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: rgb(240, 239, 239);
+  letter-spacing: 5.6px;
+  font-size: 20px;
+}
+
+
+/* Todas las cards, fondo blanco de cada imagen */
+.card {
+  width: auto;
+  height: auto;
+  background: rgb(255, 255, 255);
+  margin: 0 15px;
+  padding: 60px 33px 12px 33px;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.04);
+  border-radius: 2px;
+  position: auto;
+  display: block;
+}
+
+
+/* Imagen del card, PARA ARREGLAR EL FALLO */
+/* .card .pc img {
+  max-width: 100%;
+  width: auto;
+  margin-bottom: 20px;
+} */
+
+
+/* Información del pc */
+.card .pc--info {
+  /* position: absolute;
+  bottom: -100px;
+  text-align: center;
+  width: 100%;
+
+  left: 0; */
+  color: black;
+  font-weight: 400;
+}
+
+
+
+/* Nombre del pc */
+/* .card .pc--info .pc--name .buy-btn{
+  margin-bottom: 8px;
+} */
+
+/* Precio del pc */
+.card .pc--info .pc--price {
+  font-weight: 400;
+  color: #757575;
+  font-size: 27px;
+}
+
+
+.buy-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 14px;
+  outline: 0;
+  background-color: transparent;
+  box-shadow: none;
+  border: 2px solid #afafaf;
+  text-transform: uppercase;
+  padding: 8px 19px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #afafaf;
+}
