@@ -40,7 +40,7 @@
     "jquery": "^3.3.1",
     "js-cookie": "^2.2.0",
     "mongodb": "^3.1.10",
-    "mongoose": "^5.4.3",
+    "mongoose": "^5.7.5",
     "ng2-typewriter": "^1.1.0",
     "ngx-cookie-service": "^2.1.0",
     "ngx-toastr": "^9.1.1",
